@@ -1,0 +1,28 @@
+footer {
+    border-top: solid;
+    border-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.headshot {
+    width: 100%;
+}
+.foot-text {
+    min-width: 10rem;
+}
+#cat-carousel {
+    width: 35vw;
+}
+.main-cat-container {
+    min-height: 100vh;
+}
+@media (max-width: 767.98px) {
+    #cat-carousel {
+        width: 95vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #cat-carousel {
+        width: 50vw;
+    }
+}
